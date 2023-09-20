@@ -1,0 +1,26 @@
+.contian {
+       max-width: 100%;
+       align-items: center;
+       background:linear-gradient(to bottom,aquamarine 50%,lightskyblue);    }
+.soge {
+       width: 5000px;
+       height: 50px;
+       max-width: 100%;
+       color: gray;
+       text-align: center;
+       font-size: 50px;
+       }
+.textarea {
+	background-color: lightskyblue;
+}
+
+     
+.centertext1 {
+	margin-top: 20px;
+	text-align: center;
+}
+.centertext2 {
+	text-align: center;
+	font-weight: 800;
+	margin-bottom: 20px;
+}

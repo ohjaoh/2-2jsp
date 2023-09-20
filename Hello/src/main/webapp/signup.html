@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+
+<body style="background-color: #99FF99;">
+	<table align="center" style="border-style: groove; border: 1; margin-top: 20px;">
+		<tr>
+			<td colspan="2" align="center" height="40" style="border-style: groove; border-bottom: 1;"><b>회원가입</b></td>
+		</tr>
+		<tr>
+			<td align="right">아이디 &nbsp;</td>
+			<td><input type="text" name="id" required></td>
+		</tr>
+		<tr>
+			<td align="right">패스워드 &nbsp;</td>
+			<td><input type="password" name="ps" required></td>
+		</tr>
+		<tr>
+			<td align="right">패스워드(확인) &nbsp;</td>
+			<td><input type="password" name="psck" required></td>
+		</tr>
+		<tr>
+			<td align="right">이름 &nbsp;</td>
+			<td><input type="text" name="name" required></td>
+		</tr>
+		<tr>
+			<td align="right">주소 &nbsp;</td>
+			<td><input type="text" name="address" required></td>
+		</tr>
+		<tr>
+			<td align="right">성별 &nbsp;</td>
+			<td>
+				<input type="radio" name="male">남자
+				<input type="radio" name="female">여자
+			</td>
+		</tr>
+		<tr>
+			<td align="right">기타성별인 경우 &nbsp;</td>
+			<td>
+				<input type="radio" name="gitar">기타
+				<input type="text" placeholder="성별을 입력">
+			</td>
+		</tr>
+		
+		<tr>
+			<td align="right">생년월일 &nbsp;</td>
+			<td>
+				<input type="date" name="birth">
+			</td>
+		</tr>
+		
+		<tr>
+			<td align="right">기타사항 &nbsp;</td>
+			<td>
+				<textarea cols="20" rows="10" placeholder="기타하고픈 말 입력"></textarea>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" align="center" height="50">
+				<input type="button" value="회원가입하기">
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
