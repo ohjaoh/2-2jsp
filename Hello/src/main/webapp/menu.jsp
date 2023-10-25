@@ -8,6 +8,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div class="menu">Home</div>
+	<div class="container">
+		<a href="welcome.jsp" class="menu">Home</a>
+		<a href="loginform.jsp" class="menu">login</a>
+		<a href="logout1.jsp" class="menu">logout</a>
+	</div>
 </body>
 </html>

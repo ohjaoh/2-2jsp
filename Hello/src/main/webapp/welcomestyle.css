@@ -1,17 +1,17 @@
 .contian {
        max-width: 100%;
        align-items: center;
-       background:linear-gradient(to bottom,aquamarine 50%,lightskyblue);    }
+       background-color: lightgray;    }
 .soge {
        width: 5000px;
        height: 50px;
        max-width: 100%;
-       color: gray;
+       background-color: lightgray;
        text-align: center;
        font-size: 50px;
        }
 .textarea {
-	background-color: lightskyblue;
+	background-color: white;
 }
 
      
@@ -22,5 +22,4 @@
 .centertext2 {
 	text-align: center;
 	font-weight: 800;
-	margin-bottom: 20px;
 }

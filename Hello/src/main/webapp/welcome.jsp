@@ -8,16 +8,25 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%
+    String uid = (String)session.getAttribute("id");
+    if(uid == null){
+    	response.sendRedirect("loginform.jsp");
+    }
+    else {
+    	session.setAttribute("id", uid);
+    }
+    %>
+	<header><%@ include file="menu.jsp"%></header>
 	<div class="contian">
-		<header><%@ include file="menu.jsp"%></header>
 		<h1 class="soge">웹 쇼핑몰에 오신 것을 환영합니다.</h1>
 		<div class="textarea">
 			<div class="centertext1">Welcome to Web Marcket!</div>
 			<br>
 			<div class="centertext2">
 				현재시간:<%=java.time.LocalDateTime.now()%></div>
-			<%@ include file="footer.jsp"%>
 		</div>
 	</div>
+	<%@ include file="footer.jsp"%>
 </body>
 </html>
