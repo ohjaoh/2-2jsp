@@ -1,0 +1,83 @@
+/* 기본 메뉴 스타일 */
+.menu {
+    margin-left: 5%;
+    max-width: 20%;
+    border: 1px solid transparent;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    z-index: 1;
+    flex: 1;
+    transition: all 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+/* 브론즈 등급 메뉴 스타일 */
+.grade-0 .menu {text-decoration: none; /* 링크 밑줄 제거 */
+    background-color: #b08d57;
+    border-color: #8c6d45;
+}
+
+/* 실버 등급 메뉴 스타일 */
+.grade-1 .menu {text-decoration: none; /* 링크 밑줄 제거 */
+    background-color: #a8a8a8;
+    border-color: #898989;
+    color: #333333; /* 텍스트 색상 변경 */
+}
+
+/* 골드 등급 메뉴 스타일 */
+.grade-2 .menu {text-decoration: none; /* 링크 밑줄 제거 */
+    background-color: #d4af37;
+    border-color: #b7952b;
+}
+
+/* 플래티넘 등급 메뉴 스타일 */
+.grade-3 .menu {text-decoration: none; /* 링크 밑줄 제거 */
+    background-color: #e6e6e6;
+    border-color: #d3d3d3;
+    color: #333333; /* 텍스트 색상 변경 */
+}
+
+/* 메뉴 호버 효과 */
+.menu:hover {border-radius: 10px; /* 모서리를 둥글게 */
+    background-color: #f5f5f5;
+    color: #007bff;
+    border-color: #007bff; /* 호버 시 테두리 색상 변경 */
+}
+
+/* 활성화된 메뉴 항목 스타일 */
+.menu.active {
+    background-color: #007bff; /* 활성화된 항목의 배경색 */
+    color: #fff; /* 활성화된 항목의 텍스트 색상 */
+    font-weight: bold; /* 텍스트를 굵게 표시 */
+    border-bottom: 2px solid #0056b3; /* 하단 테두리를 추가하여 강조 */
+}
+
+.container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    transition: background-color 0.3s ease; /* 부드러운 배경색 전환 */
+    /* 기타 공통 스타일 */
+}
+
+/* 브론즈 등급 컨테이너 스타일 */
+.grade-0 .container {
+    background-color: #e0ba9f; /* 브론즈 등급에 맞는 색상 */
+}
+
+/* 실버 등급 컨테이너 스타일 */
+.grade-1 .container {
+    background-color: #d3d3d3; /* 실버 등급에 맞는 색상 */
+}
+
+/* 골드 등급 컨테이너 스타일 */
+.grade-2 .container {
+    background-color: #f1e5ac; /* 골드 등급에 맞는 색상 */
+}
+
+/* 플래티넘 등급 컨테이너 스타일 */
+.grade-3 .container {
+    background-color: #f0f8ff; /* 플래티넘 등급에 맞는 색상 */
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.grade-0 {
+    background-color: #cd7f32; /* 브론즈 등급의 배경색 */
+}
+
+.grade-1 {
+    background-color: #c0c0c0; /* 실버 등급의 배경색 */
+}
+
+.grade-2 {
+    background-color: #ffd700; /* 골드 등급의 배경색 */
+}
+
+.grade-3 {
+    background-color: #b9f2ff; /* 플래티넘 등급의 배경색 */
+}
+/* 기본 스타일 */
+.text {
+    font-weight: bold;
+}
+/* 등급이 높아질 수록 시인성이 좋아짐 */ 
+/* 브론즈 등급 스타일 */
+.grade-0 .text {
+    color: #8B4513; /* 브론즈 색상과 대비되는 진한 갈색 계열 색상 */
+    font-size: 18px; /* 글자 크기를 18px로 설정 (원하는 크기로 조정) */
+}
+
+/* 실버 등급 스타일 */
+.grade-1 .text {
+    color: #2F4F4F; /* 실버 색상과 대비되는 진한 회색 색상 */
+    font-size: 20px; /* 글자 크기를 20px로 설정 (원하는 크기로 조정) */
+}
+
+/* 골드 등급 스타일 */
+.grade-2 .text {
+    color: #4B0082; /* 골드 색상과 대비되는 진한 인디고 색상 */
+    font-size: 22px; /* 글자 크기를 22px로 설정 (원하는 크기로 조정) */
+}
+
+/* 플래티넘 등급 스타일 */
+.grade-3 .text {
+    color: #1E90FF; /* 플래티넘 색상과 대비되는 진한 파란색 색상 */
+    font-size: 24px; /* 글자 크기를 24px로 설정 (원하는 크기로 조정) */
+}
+
+
